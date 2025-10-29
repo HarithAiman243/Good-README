@@ -97,13 +97,13 @@ Below is the high-level directory structure for clarity and maintainability:
 ```
 
 ### 🗂️ File Descriptions
-**`ingest.py`**	Handles data ingestion from APIs or S3 storage.
-**`query_meta.py`**	Pulls ad performance data from Meta Ads Graph API.
-**`vectorstore.py`**	Handles embedding creation and vector database upsert/query operations.
-**`config.yaml`**	Centralized configuration for API versions, models, and credentials.
-**`streamlit_app.py`**	Frontend dashboard for data visualization and chatbot interface.
-**`Dockerfile`**	Instructions for containerizing the application.
-**`test_api.py`**	Tests the API endpoints using mock data.
+1. **`ingest.py`**	Handles data ingestion from APIs or S3 storage.
+2. **`query_meta.py`**	Pulls ad performance data from Meta Ads Graph API.
+3. **`vectorstore.py`**	Handles embedding creation and vector database upsert/query operations.
+4. **`config.yaml`**	Centralized configuration for API versions, models, and credentials.
+5. **`streamlit_app.py`**	Frontend dashboard for data visualization and chatbot interface.
+6. **`Dockerfile`**	Instructions for containerizing the application.
+7. **`test_api.py`**	Tests the API endpoints using mock data.
 
 ## ▶️ Run the Application
 
